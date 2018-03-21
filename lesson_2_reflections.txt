@@ -1,0 +1,24 @@
+What happens when you initialize a repository? Why do you need to do it?
+It creates the .git file and turns a file directory into a git repository, allowing you to make commits, etc.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+The staging area is the place where you put files you want to be part of your next commit. The working directory is the branch you're currently working on (say, if you checked out a previous commit and made a new branch in doing so).
+The repository is the folder that contains all of the files that are part of this particular group of files.
+
+How can you use the staging area to make sure you have one commit per logical change?
+You can add only those files you're ready to commit to the staging area, meaning even if you're partially through editing another file that's also in the repository, you can commit just the logical changes that have been completed.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Branches seem like they'd really shine when you're presented with a situation where you're adding a feature or trying a new direction and you might need to make lots of commits as you do so, but you want to have your "original working version" still intact.
+For example, your main branch is always production-quality and good to go, while a development branch is maybe actively adding features to that main branch, and a third experimental branch is a bunch of stuff you're experimenting with and you're not sure is even in the development pipeline.
+
+How do the diagrams help you visualize the branch structure?
+The diagrams make it clear how branches interact with one another and how creating new detached head commits sans branch is a great way to lose work
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+It keeps the original code that wasn't deleted by one of the commits, deletes code that was deleted by one of the commits, and pulls in new code that was add by one or both of the commits.
+We diagram them the way we do because it pulls separate branches together into the specified branch (the one you have checked out when you do the merge).
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Pros: automatic merge reduces the amount of time you have to spend merging code, and even when you have to manually reconcile a merge, it tells you where there are conflicts
+Cons: You might end up with non-conflicting code that causes issues, bugs, etc. and it will just merge away.
