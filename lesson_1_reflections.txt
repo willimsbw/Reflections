@@ -1,0 +1,23 @@
+So far I understand how FC and comparing files, version control, etc work.
+I have questions about things like forking, pull requests, etc. but we'll get there.
+Also a little confused about the whole local version control git, etc. whatever.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+It would definitely make it easier to find bugs in your programs. It would also let you take risks by making it easier to backtrack if they fail.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+The pro of autosaves is obviously that you can't forget to save your work, and things like crashes or bugs can't prevent you from saving.
+The cons are that if you are planning to look back at versions, they differences will be so small they're basically useless, and you'll have a lot of them if it's saving often.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+Git is designed for saving changes to repositories (file libraries) for intertwined files, like HTML and CSS code that reference one another for a webpage. Google docs is designed to track changes on documents and photos, etc., which tend to be all one file, and the point is to make sure as you work on those individual files you never forget to save and lose edits.
+
+How can you use the commands git log and git diff to view the history of files?
+You can use git log to see all commits logged for the repository you're in, and you can use git diff to see all of the lines that were added, stayed the same, or removed between the first and second commits
+
+
+How might using version control make you more confident to make changes that could break something?
+Because it's easy to look at versions before a single logical change was made to see which logical change caused the thing to break.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+I want to use git to commit versions of projects as I work on them!
