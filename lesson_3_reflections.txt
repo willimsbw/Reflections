@@ -1,2 +1,6 @@
 When would you want to use a remote repository rather than keeping all your work local?
-Anytime you want to have your work backed up to the cloud, publicly available, or privately available to others within your organization. 
+Anytime you want to have your work backed up to the cloud, publicly available, or privately available to others within your organization.
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+If git was automatically downloading changes all the time to your local repository, you might download changes you don't want that another person pushed to github.
+Additionally, somebody could put something malicious in there and have it auto-download to your computer if it's a public repository
