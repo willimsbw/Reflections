@@ -5,3 +5,7 @@ You would use branches to test new additions, features, versions, etc. of a proj
 What is the benefit of having a copy of the last known state of the remote stored locally?
 The benefit of having a copy of the last known state of the remote locally is that if you're offline you can see the last time you synced up your local changes to the remote.
 This tells you what's been added since then.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+I'm not sure how you would collaborate. Presumably you'd have to work completely separately, periodically getting together and working through having to merge all of your changes into some kind of master document, copying that, and then starting over.
+You could use a tool like google docs to write simultaneously into one giant document, which has the advantage of not having to merge any changes, but it seems like a great way to accidentally introduce bugs because the left hand doesn't know what the right hand is doing, if you will.
