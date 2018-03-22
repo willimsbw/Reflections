@@ -9,3 +9,10 @@ This tells you what's been added since then.
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 I'm not sure how you would collaborate. Presumably you'd have to work completely separately, periodically getting together and working through having to merge all of your changes into some kind of master document, copying that, and then starting over.
 You could use a tool like google docs to write simultaneously into one giant document, which has the advantage of not having to merge any changes, but it seems like a great way to accidentally introduce bugs because the left hand doesn't know what the right hand is doing, if you will.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+In the context of github, it allows you to create and make changes to pull requests before eventually merging the pull request into
+your remote master, which is a more showy way of doing it. This is good if you're collaborating, because it makes it easier for another
+person to see what your original pull request is, track the ways it gets modified, and eventually when they accept it and it becomes
+part of that remote master, you can get all your local stuff in line with that. It's more complicated locally, but it makes it easier to
+see and understand what's being done on the remote.
