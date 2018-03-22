@@ -1,1 +1,2 @@
-Lorem Ipsum -- testing
+When would you want to use a remote repository rather than keeping all your work local?
+Anytime you want to have your work backed up to the cloud, publicly available, or privately available to others within your organization. 
